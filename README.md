@@ -22,7 +22,7 @@ A specialized PowerShell GUI tool for searching and purging emails across Micros
 • Refinement: Refactored by AI to optimize code structure and UI responsiveness via Application.DoEvents.  
 
   
-## 🧠 What I Learned**  
+## 🧠 **What I Learned ** 
 • API Integration: Managing OAuth tokens and handling paged OData results (@odata.nextLink) from Microsoft Graph.  
 • GUI State Management: Handling asynchronous-like behavior in PowerShell to keep the UI from freezing during long scans.  
 • Data Sanitization: Escaping special characters in OData filter queries to prevent script errors.  
@@ -33,3 +33,7 @@ A specialized PowerShell GUI tool for searching and purging emails across Micros
 • Authenticate: Enter your App Registration credentials and click Test Connection.  
 • Target: Input target user UPNs (comma-separated) or leave blank for the whole tenant.  
 • Action: Define your search criteria, click Start Search, and use the results window to preview or delete.  
+
+
+  <img width="512" height="631" alt="image" src="https://github.com/user-attachments/assets/04d99655-2727-4326-b70d-2e3fc1a6cdea" />
+
