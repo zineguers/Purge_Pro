@@ -13,13 +13,13 @@ A specialized PowerShell GUI tool for searching and purging emails across Micros
 • M365 Permissions: Azure App Registration with Mail.ReadWrite (Application Permission).  
 • Credentials: Tenant ID, Client ID, and Client Secret.  
 
-##🛠️ **How I Built It**  
+## 🔑 **How I Built It**  
 • Frontend: Developed using the System.Windows.Forms and System.Drawing libraries to create a functional desktop interface.  
 • Backend: Powered by PowerShell 5.1 logic and Invoke-RestMethod for API communication.  
 • Authentication: Implemented OAuth 2.0 Client Credentials flow for secure Graph API access.  
 • Refinement: Refactored by AI to optimize code structure and UI responsiveness via Application.DoEvents.  
 
-**🧠 What I Learned**  
+## 🧠 What I Learned**  
 • API Integration: Managing OAuth tokens and handling paged OData results (@odata.nextLink) from Microsoft Graph.  
 • GUI State Management: Handling asynchronous-like behavior in PowerShell to keep the UI from freezing during long scans.  
 • Data Sanitization: Escaping special characters in OData filter queries to prevent script errors.  
